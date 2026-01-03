@@ -1,0 +1,166 @@
+order,answerText
+1,"**Project Overview**
+
+ExampleDAO is a decentralized protocol solving the problem of fragmented liquidity across DeFi markets.
+
+**(a) Problem Solved:** Cross-chain liquidity is currently siloed, leading to capital inefficiency and poor user experience.
+
+**(b) Operational Priorities:** The protocol will sustain operations through protocol fees (0.1% on swaps) and a Foundation treasury allocation for ongoing development.
+
+**(c) High-Level Overview:** ExampleDAO aggregates liquidity from multiple chains through a unified routing layer, enabling seamless cross-chain swaps.
+
+**(d) Primary Token Functions:**
+- Governance participation (voting on protocol upgrades)
+- Fee sharing (stakers receive 50% of protocol fees)
+- Liquidity incentives
+
+**(e) Control Surface:** The protocol currently uses a 4/7 multisig for emergency actions. Plans include progressive decentralization to full on-chain governance by Q4 2025."
+2,"**Labs/DevCo Team**
+
+| Full Name | Official Title | Prior Experience |
+| --- | --- | --- |
+| Alice Smith | CEO & Co-Founder | Former DeFi Lead at Compound, 8 years in fintech |
+| Bob Johnson | CTO & Co-Founder | Former Protocol Engineer at Uniswap, PhD in Distributed Systems |
+| Carol Williams | COO | Former Operations Director at Chainlink |
+
+**Foundation**
+
+| Full Name | Official Title | Prior Experience |
+| --- | --- | --- |
+| David Brown | Executive Director | Former VP at Ethereum Foundation |
+| Eve Davis | CFO | CPA, Former Finance Director at ConsenSys |
+
+**DAO Leadership**
+
+The DAO does not currently have formal leadership positions. Governance is conducted through token-weighted voting."
+3,"**DAO Structure**
+
+**(a) IP Ownership & Control:** The DAO owns the ExampleDAO trademark and controls the primary GitHub repository (github.com/exampledao/protocol) under MIT license.
+
+**(b) Contract/Admin Powers:**
+- Pause authority: 4/7 multisig (emergency only, 24h timelock)
+- Upgrade authority: DAO governance (7-day voting, 60% quorum required)
+- Treasury management: DAO governance (simple majority)
+
+**(c) Locked-Token Rights:** Staking EXAMPLE tokens for veEXAMPLE provides:
+- Boosted voting power (up to 2.5x)
+- Enhanced fee share (up to 2x multiplier)
+- Tokenholders cannot vote on team vesting schedules or Foundation operations.
+
+**(d) Value Accrual:** 50% of protocol fees are distributed to veEXAMPLE holders weekly. Treasury is controlled by DAO governance.
+
+**(e) Dissolution Authority:** The DAO can be dissolved by a super-majority vote (75% approval with 50% quorum) or by unanimous board resolution of the Cayman Foundation wrapper."
+4,"**Primary Foundation**
+
+**(a) Entity:** ExampleDAO Foundation, Cayman Islands Foundation Company
+
+**(b) IP Ownership:** The Foundation holds the ExampleDAO trademark registration. No subsidiary entities exist.
+
+**(c) Powers over DAO/Treasury:** The Foundation has no direct control over DAO governance or treasury. Foundation directors may submit governance proposals like any tokenholder.
+
+**(d) Powers over DevCo:** The Foundation has a service agreement with ExampleDAO Labs for protocol development. The Foundation cannot direct day-to-day operations of the DevCo.
+
+**(e) Contract/Admin Powers:** The Foundation controls 2 of 7 emergency multisig keys. No unilateral pause or upgrade authority.
+
+---
+
+**Primary DevCo**
+
+**(a) Entity:** ExampleDAO Labs Inc., Delaware C-Corp
+
+**(b) IP Ownership:** The DevCo maintains the codebase under Foundation license. No subsidiary entities.
+
+**(c) Powers over DAO/Treasury:** None. The DevCo operates as a service provider.
+
+**(d) Powers over Foundation:** The DevCo CEO serves as a non-voting advisor to the Foundation board. No direct control.
+
+**(e) Contract/Admin Powers:** The DevCo controls 2 of 7 emergency multisig keys. No unilateral authority."
+5,"{""textExplanation"":""## Token Distribution\n\nThe EXAMPLE token has a total supply of 1,000,000,000 tokens with the following allocation:\n\n- **Ecosystem Development (40%):** Protocol incentives, grants, and ecosystem growth\n- **Team & Advisors (20%):** Subject to 4-year vesting with 1-year cliff\n- **Investors (15%):** Seed and Series A participants\n- **Community (15%):** Airdrops and community programs\n- **Treasury (10%):** DAO-controlled reserve\n\n**Initial Price:** $0.10 per token\n**Ticker:** EXAMPLE\n**Supply Regime:** Fixed supply, no inflation"",""supplyAllocation"":{""categories"":[{""id"":""cat-1"",""label"":""Ecosystem Development"",""tokenAmount"":400000000,""percentage"":40,""color"":""#8B5CF6""},{""id"":""cat-2"",""label"":""Team & Advisors"",""tokenAmount"":200000000,""percentage"":20,""color"":""#3B82F6""},{""id"":""cat-3"",""label"":""Investors"",""tokenAmount"":150000000,""percentage"":15,""color"":""#10B981""},{""id"":""cat-4"",""label"":""Community"",""tokenAmount"":150000000,""percentage"":15,""color"":""#F59E0B""},{""id"":""cat-5"",""label"":""Treasury"",""tokenAmount"":100000000,""percentage"":10,""color"":""#EF4444""}],""totalSupply"":1000000000,""tokenTicker"":""EXAMPLE""},""vestingSchedule"":{""dataPoints"":[{""quarterLabel"":""TGE"",""timestamp"":""2025-03-01T00:00:00Z"",""categories"":{""Ecosystem Development"":40000000,""Team & Advisors"":0,""Investors"":15000000,""Community"":75000000,""Treasury"":10000000}},{""quarterLabel"":""Q2 2025"",""timestamp"":""2025-06-01T00:00:00Z"",""categories"":{""Ecosystem Development"":80000000,""Team & Advisors"":0,""Investors"":30000000,""Community"":112500000,""Treasury"":20000000}},{""quarterLabel"":""Q3 2025"",""timestamp"":""2025-09-01T00:00:00Z"",""categories"":{""Ecosystem Development"":120000000,""Team & Advisors"":0,""Investors"":52500000,""Community"":150000000,""Treasury"":30000000}},{""quarterLabel"":""Q4 2025"",""timestamp"":""2025-12-01T00:00:00Z"",""categories"":{""Ecosystem Development"":160000000,""Team & Advisors"":0,""Investors"":75000000,""Community"":150000000,""Treasury"":40000000}},{""quarterLabel"":""Q1 2026"",""timestamp"":""2026-03-01T00:00:00Z"",""categories"":{""Ecosystem Development"":200000000,""Team & Advisors"":50000000,""Investors"":97500000,""Community"":150000000,""Treasury"":50000000}},{""quarterLabel"":""Q1 2027"",""timestamp"":""2027-03-01T00:00:00Z"",""categories"":{""Ecosystem Development"":320000000,""Team & Advisors"":150000000,""Investors"":150000000,""Community"":150000000,""Treasury"":80000000}},{""quarterLabel"":""Q1 2029"",""timestamp"":""2029-03-01T00:00:00Z"",""categories"":{""Ecosystem Development"":400000000,""Team & Advisors"":200000000,""Investors"":150000000,""Community"":150000000,""Treasury"":100000000}}],""categories"":[""Ecosystem Development"",""Team & Advisors"",""Investors"",""Community"",""Treasury""],""colors"":{""Ecosystem Development"":""#8B5CF6"",""Team & Advisors"":""#3B82F6"",""Investors"":""#10B981"",""Community"":""#F59E0B"",""Treasury"":""#EF4444""}},""meta"":{""version"":""1.0"",""timestamp"":""2025-01-02T00:00:00Z""}}"
+6,"**Airdrop Process**
+
+The project plans to conduct an airdrop at TGE targeting the following user segments:
+
+**(a) Commitment:** ExampleDAO commits to publishing the full recipient wallet list on our public GitHub repository and providing quarterly updates to Blockworks until the initial TGE airdrop is fully completed.
+
+**(b) Target User Segments:**
+- Early testnet participants (proportional to transaction count)
+- Active DeFi users who interacted with partner protocols (Uniswap, Aave, Compound)
+- Discord community members who completed verification
+
+**Allocation Method:** Points-based system with the following weights:
+- Testnet transactions: 1 point per transaction (max 1000 points)
+- Partner protocol TVL: 0.1 points per $100 TVL at snapshot
+- Community engagement: Up to 500 bonus points
+
+Total airdrop allocation: 75,000,000 EXAMPLE (7.5% of supply)"
+7,"**Market Maker Agreements**
+
+ExampleDAO has entered into market-making agreements with two firms:
+
+| Market Maker Name | Token Allocation Committed | Term Duration | Structure Name |
+| --- | --- | --- | --- |
+| Wintermute Trading | 2% of total supply | 24 months | Token Loan with Call Option |
+| GSR Markets | 1.5% of total supply | 18 months | Retainer Model |
+
+**Additional Details:**
+- Wintermute agreement includes a call option at 150% of listing price
+- GSR agreement is a fixed monthly retainer with performance bonuses
+- Both agreements include standard clawback provisions for material breach"
+8,"**CEX/DEX Listings**
+
+| Exchange Name | Token Allocation Committed | Term Duration | Native Token Listing Fees |
+| --- | --- | --- | --- |
+| Binance | 0.5% of supply (liquidity mining) | 6 months | None |
+| Coinbase | 0% | N/A | None |
+| Uniswap V3 (ETH/EXAMPLE) | 2% of supply (initial liquidity) | Permanent | None |
+| Aerodrome (BASE) | 1% of supply (gauge incentives) | 12 months | None |
+
+**Notes:**
+- No native-token listing fees were paid to any exchange
+- Uniswap liquidity provided by Treasury, owned by DAO
+- Aerodrome incentives funded from Ecosystem Development allocation"
+9,"**Prior Token Sales & Fundraising**
+
+| Series Name / Investment Vehicle | Date Of Sale | Number of tokens sold | Vesting Schedule |
+| --- | --- | --- | --- |
+| Seed Round (SAFT) | March 2023 | 50,000,000 (5% of supply) | 12-month cliff, 36-month linear vesting |
+| Series A (SAFT) | November 2023 | 75,000,000 (7.5% of supply) | 6-month cliff, 24-month linear vesting |
+| Strategic Round (Token Warrant) | June 2024 | 25,000,000 (2.5% of supply) | 3-month cliff, 18-month linear vesting |
+
+**Pricing:**
+- Seed: $0.02 per token ($1M raised)
+- Series A: $0.04 per token ($3M raised)
+- Strategic: $0.08 per token ($2M raised)
+
+No OTC sales or discounted market-maker sales have occurred."
+10,"**Previous Exploits**
+
+No exploits affecting tokenholders or protocol funds have occurred as of 2025-01-02.
+
+The protocol has undergone the following security measures:
+- Smart contract audit by Trail of Bits (June 2024) - No critical findings
+- Smart contract audit by OpenZeppelin (August 2024) - 2 medium findings, all resolved
+- Ongoing bug bounty program via Immunefi ($500K max payout)
+
+**Testnet Incidents (Not Affecting Funds):**
+- 2024-05-15: Flash loan vulnerability identified during testnet, patched before mainnet
+- 2024-07-22: UI phishing attempt detected and blocked, no user funds affected"
+11,"**[OPTIONAL] Material Risk Factors**
+
+**A. Regulatory, Legal & Tax Risks**
+
+*Impact of Regulatory Change:* Changes in securities regulations, particularly in the US, EU, or Singapore, could affect the token's classification and trading availability. The project has obtained legal opinions supporting utility token classification but regulatory interpretation may evolve.
+
+*Jurisdictional Restrictions:* US persons are currently restricted from participating in the token sale. Users should consult local tax advisors regarding token holdings.
+
+**B. Protocol, Technology & Security Risks**
+
+*Smart Contract Risk:* Despite audits, undiscovered vulnerabilities may exist. Users should not deposit more than they can afford to lose.
+
+*Bridge Risk:* Cross-chain functionality relies on third-party bridges which have their own security assumptions.
+
+**C. Token Economics Risks**
+
+*Unlock Schedule:* Significant token unlocks (particularly Team tokens beginning Q1 2026) may create selling pressure.
+
+*Governance Concentration:* Early investors and team members will initially hold significant voting power, though this dilutes over time through ecosystem distributions."

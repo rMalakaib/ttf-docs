@@ -1,0 +1,180 @@
+Category,Code,Display Label
+Income Statement,IS_APY_VAULTS,APY earned on vaults
+Income Statement,IS_LP_FEE_INCOME,Liquidity pool fee income
+Income Statement,IS_TOKEN_RECEIPTS_OP,Token receipts (operating)
+Income Statement,IS_PROFESSIONAL_FEES,Professional fees
+Income Statement,IS_LIQUIDITY_INCENTIVES_CASH,Liquidity incentives spent
+Income Statement,IS_MARKETING_FEES,Marketing fees
+Income Statement,IS_TOKEN_ECOSYSTEM_FEES,Token ecosystem fees
+Income Statement,IS_BANK_TX_FEES,Bank and transaction fees
+Income Statement,IS_OTHER_OP_FEES,Other operational fees
+Income Statement,IS_PROTOCOL_FAILURE_REIMBURSE,Reimbursements due to protocol failure
+Income Statement,IS_TEAM_COSTS,Team costs
+Income Statement,IS_LEGAL_INSURANCE,Legal and insurance
+Income Statement,IS_AUDITS,Smart contract audits
+Income Statement,IS_OPS_COSTS,Operations costs
+Income Statement,IS_MKT_COSTS,Marketing costs
+Income Statement,IS_PRODUCT_ENG_COSTS,Product and engineering costs
+Income Statement,IS_TRAVEL,Travel
+Income Statement,IS_SALARIES,Salaries
+Income Statement,IS_CONTRACT_LABOR,Contract labor
+Income Statement,IS_RECRUITING,Recruiting
+Income Statement,IS_OFFICE,Office expenses
+Income Statement,IS_EDUCATION,Continuing education
+Income Statement,IS_SOFTWARE_HOSTING,Software and hosting
+Income Statement,IS_TRAVEL_MEALS,Travel and meals
+Income Statement,IS_ADVERTISING_MKTG,Advertising and marketing
+Income Statement,IS_TX_FEES,Transaction fees
+Income Statement,IS_INTEREST_INCOME,Interest income
+Income Statement,IS_INTEREST_EXPENSE,Interest expense
+Income Statement,IS_REALIZED_DA,Net realized gains on digital assets
+Income Statement,IS_UNREALIZED_DA,Net unrealized gains on digital assets
+Income Statement,IS_OTHER_OP_INCOME,Other operating income
+Income Statement,IS_OTHER_NONOP,Other non-operating income/expense
+Income Statement,Revenue,Revenue
+Income Statement,COGS,COGS
+Income Statement,SG&A,SG&A
+Income Statement,R&D,R&D
+Income Statement,INCOME_TAX,Income Tax
+Income Statement,KOL_EXPENSES,KOL Expenses
+Income Statement,TVL_DEALS,Liquidity deals for TVL
+Income Statement,OP_EXPENSES,Operating expenses
+Income Statement,SALARIES_WAGES,Salaries and wages
+Income Statement,RENT_UTILITIES,Rent and utilities
+Income Statement,DEPRECIATION,Depreciation
+Income Statement,AMORTIZATION,Amortization
+Income Statement - Revenue,IS_REVENUE_NETWORK_FEES,Revenue from network fees
+Income Statement - Revenue,IS_REVENUE_STAKING_SERVICES,Revenue from staking services
+Income Statement - Revenue,IS_REVENUE_GRANTS_OPERATING,Revenue from operating grants
+Income Statement - Revenue,IS_REVENUE_LICENSING_IP,Revenue from licensing IP
+Income Statement - Revenue,IS_REVENUE_ADVISORY,Revenue from advisory services
+Income Statement - Revenue,IS_REVENUE_OTHER,Other revenue
+Income Statement - COGS,IS_COGS_INFRA_HOSTING,Infrastructure and hosting (COGS)
+Income Statement - COGS,IS_COGS_ORACLES,Oracle fees (COGS)
+Income Statement - COGS,IS_COGS_SECURITY_MONITORING,Security monitoring (COGS)
+Income Statement - COGS,IS_COGS_THIRD_PARTY_FEES,Third-party service fees (COGS)
+Income Statement - COGS,IS_COGS_PAYMENT_CEX,Payment processing/CEX fees (COGS)
+Income Statement - OpEx,IS_OPEX_RD_CORE,R&D core development
+Income Statement - OpEx,IS_OPEX_BUG_BOUNTIES_CASH,Bug bounties (cash)
+Income Statement - OpEx,IS_OPEX_SGA_KOL,KOL expenses (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_COMMUNITY_EVENTS,Community & events (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_BRAND_CONTENT,Brand & content (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_PR_COMMS,PR & communications (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_GNA,General & administrative (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_LEGAL_COMPLIANCE,Legal & compliance (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_ACCOUNTING_TAX,Accounting & tax (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_RECRUITING_HR,Recruiting & HR (SG&A)
+Income Statement - OpEx,IS_OPEX_SGA_CUSTODY_BANKING,Custody & banking (SG&A)
+Income Statement - Ecosystem,IS_ECO_LIQUIDITY_DEALS_CASH,Liquidity deals (cash ecosystem)
+Income Statement - Ecosystem,IS_ECO_MARKET_MAKING_CASH,Market making (cash ecosystem)
+Income Statement - Ecosystem,IS_ECO_GRANTS_CASH,Grants paid (cash ecosystem)
+Income Statement - Ecosystem,IS_ECO_PARTNERSHIPS_CASH,Partnerships (cash ecosystem)
+Income Statement - Non-cash,IS_NONCASH_TOKEN_COMP,Token-based compensation (non-cash)
+Income Statement - Non-cash,IS_NONCASH_TOKEN_PARTNER_INCENTIVES,Token partner incentives (non-cash)
+Income Statement - Non-cash,IS_NONCASH_TOKEN_WARRANT_AMORT,Token warrant amortization (non-cash)
+Income Statement - Non-cash,IS_NONCASH_DA,Depreciation & amortization (non-cash)
+Income Statement - Other,IS_OTHER_FX_GAIN_LOSS,Foreign exchange gain/loss
+Income Statement - Totals,IS_TOTAL_INCOME,Total income
+Income Statement - Totals,IS_TOTAL_REVENUE,Total revenue
+Income Statement - Totals,IS_TOTAL_EXPENSES,Total expenses
+Income Statement - Totals,IS_TOTAL_OTHER_INCOME_EXPENSE,Total other income/expense
+Income Statement - Totals,IS_GROSS_PROFIT,Gross profit
+Income Statement - Totals,IS_OPERATING_INCOME_LOSS,Operating income
+Income Statement - Totals,IS_EBITDA,EBITDA
+Income Statement - Totals,IS_EBIT,EBIT
+Income Statement - Totals,IS_NET_EARNINGS,Net earnings
+Income Statement - Totals,IS_NET_INCOME_LOSS,Net income
+Income Statement - Totals,IS_TOTAL_COGS,Total COGS
+Income Statement - Totals,IS_TOTAL_OP_EXPENSES,Total Operating Expenses
+Income Statement - Totals,IS_OPERATING_INCOME,Operating Income
+Income Statement - Totals,IS_INCOME_BEFORE_TAXES,Income Before Taxes
+Income Statement - Totals,IS_INCOME_TAX_EXPENSE,Income Tax Expense
+Balance Sheet,BS_CASH_EQ,Cash and cash equivalents
+Balance Sheet,BS_DIGITAL_ASSETS_OFFCHAIN,Digital assets (custodied off-chain)
+Balance Sheet,BS_EARMARKED_BASE_EXPANSION,Assets earmarked for base expansion
+Balance Sheet,BS_LIQUIDITY_PROVISION_OFFCHAIN,Liquidity provision (off-chain)
+Balance Sheet,BS_LOANS_RECEIVABLE,Loans receivable
+Balance Sheet,BS_PREPAIDS,Prepaid expenses
+Balance Sheet,BS_USDC,USDC (current asset)
+Balance Sheet,BS_PROPOSAL_ASSETS,Proposal assets
+Balance Sheet,BS_TOKEN_HOLDINGS_CUR,Token holdings (current)
+Balance Sheet,BS_OTHER_CURRENT_ASSETS,Other current assets
+Balance Sheet,BS_TOKEN_HOLDINGS_LT,Token holdings (long-term)
+Balance Sheet,BS_METEORA_POSITION_LT,Meteora Market position (long-term)
+Balance Sheet,BS_OTHER_LT_ASSETS,Other long-term assets
+Balance Sheet,BS_ST_INVESTMENTS_OFFCHAIN,Short-term investments (off-chain)
+Balance Sheet,BS_AR,Accounts receivable
+Balance Sheet,BS_DEPOSITS_RETAINERS,Deposits & retainers
+Balance Sheet,BS_POL_OFFCHAIN,Protocol-owned liquidity (off-chain custodial)
+Balance Sheet,BS_INTANGIBLES,Intangible assets (software IP)
+Balance Sheet - Liabilities,BS_AP,Accounts payable
+Balance Sheet - Liabilities,BS_ACCRUED_LIAB,Accrued liabilities
+Balance Sheet - Liabilities,BS_ACCRUED_OTHER,Accrued expenses and other liabilities
+Balance Sheet - Liabilities,BS_DEFERRED_REVENUE,Deferred revenue
+Balance Sheet - Liabilities,BS_DEFERRED_TOKEN_GRANTS,Deferred token grant liability
+Balance Sheet - Liabilities,BS_SAFT_WARRANT,SAFT / warrant liability
+Balance Sheet - Liabilities,BS_BANK_OVERDRAFT,Bank overdraft
+Balance Sheet - Liabilities,BS_LOANS_ST,Loans and notes payable (short-term)
+Balance Sheet - Liabilities,BS_LOANS_LT,Loans and notes payable (long-term)
+Balance Sheet - Liabilities,BS_TAXES_PAYABLE,Taxes payable
+Balance Sheet - Liabilities,BS_OTHER_LIAB,Other liabilities
+Balance Sheet - Equity,BS_TREASURY_TOKENS,Treasury tokens (equity)
+Balance Sheet - Equity,BS_EQUITY_ISSUANCE_COSTS,Equity issuance costs
+Balance Sheet - Equity,BS_MEMBERS_EQUITY,Members' equity / foundation capital
+Balance Sheet - Equity,BS_AOCI,Accumulated other comprehensive income
+Balance Sheet - Equity,BS_RETAINED_EARNINGS,Retained earnings
+Balance Sheet - Equity,BS_OTHER_RESERVES,Other reserves
+Balance Sheet - Equity,BS_EQUITY_TREASURY_STOCK,Treasury token / token repurchases
+Balance Sheet - Equity,BS_EQUITY_FOUNDATION_CAPITAL,Foundation capital / contributed capital
+Balance Sheet - Equity,BS_ACCUMULATED_SURPLUS_DEFICIT,Accumulated surplus (deficit)
+Balance Sheet - Totals,BS_TOTAL_CURRENT_ASSETS,Total current assets
+Balance Sheet - Totals,BS_TOTAL_LT_ASSETS,Total long-term assets
+Balance Sheet - Totals,BS_TOTAL_ASSETS,Total assets
+Balance Sheet - Totals,BS_TOTAL_CURRENT_LIAB,Total current liabilities
+Balance Sheet - Totals,BS_TOTAL_LT_LIAB,Total long-term liabilities
+Balance Sheet - Totals,BS_TOTAL_LIAB,Total liabilities
+Balance Sheet - Totals,BS_TOTAL_EQUITY,Total equity
+Balance Sheet - Totals,BS_TOTAL_LIAB_EQUITY,Total liabilities and equity
+Balance Sheet - Totals,BS_NET_FINANCIAL_POSITION,Net financial position
+Cash Flow,CF_NI,Net income (loss)
+Cash Flow,CF_CASH_RECEIPTS,Cash receipts from operations
+Cash Flow,CF_BEGINNING_CASH_BALANCE,Beginning Cash Balance
+Cash Flow,CF_CASH_TO_VENDORS,Cash paid to vendors and suppliers
+Cash Flow,CF_PAYROLL_CONTRACTORS,Payroll and contractor payments
+Cash Flow,CF_KOL_PAYMENTS,KOL marketing payments
+Cash Flow,CF_COMMUNITY_EVENTS_CASH,Community and events (cash)
+Cash Flow,CF_LEGAL_COMPLIANCE_CASH,Legal and compliance (cash)
+Cash Flow,CF_LIQUIDITY_DEALS_CASH,Liquidity deals (cash for TVL)
+Cash Flow,CF_MM_RETAINERS_CASH,Market-making retainers (cash)
+Cash Flow,CF_GRANTS_CASH,Grants paid (cash)
+Cash Flow,CF_INTEREST_RECEIVED,Interest received
+Cash Flow,CF_INTEREST_PAID,Interest paid
+Cash Flow,CF_TAXES_PAID,Taxes paid
+Cash Flow,CF_OTHER_OP_CASH,Other operating cash
+Cash Flow - Adjustments,CF_ADJ_NET_PROPOSAL_GAIN,Net proposal gain (non-cash adjustment)
+Cash Flow - Adjustments,CF_ADJ_NET_TOKEN_LOSS,Net token loss (non-cash adjustment)
+Cash Flow - Adjustments,CF_ADJ_TOKEN_DONATIONS,Token donations (non-cash adjustment)
+Cash Flow - Adjustments,CF_ADJ_TX_FEES_WITH_TOKENS,Transaction fees paid with tokens (non-cash adjustment)
+Cash Flow - Adjustments,CF_ADJ_CONTRACTORS_WITH_TOKENS,Contractors paid with tokens (non-cash adjustment)
+Cash Flow - Changes,CF_DELTA_PROPOSAL_ASSETS,Change in proposal assets
+Cash Flow - Changes,CF_DELTA_OTHER_ASSETS,Change in other assets
+Cash Flow - Changes,CF_DELTA_AP,Change in accounts payable
+Cash Flow - Investing,CF_NET_TOKEN_PURCHASES,Net token purchases
+Cash Flow - Investing,CF_CAPITALIZED_SOFTWARE,Capitalized software and intangibles
+Cash Flow - Investing,CF_CAPEX,Equipment and capital expenditures
+Cash Flow - Investing,CF_CREATE_AMM_POSITION,Creation of AMM position
+Cash Flow - Investing,CF_ACQUIRE_POL_OFFCHAIN,Acquisition/increase of off-chain POL positions
+Cash Flow - Investing,CF_PROCEEDS_INVESTMENTS,Proceeds from sale of investments (off-chain)
+Cash Flow - Investing,CF_OTHER_INVESTING,Other investing cash
+Cash Flow - Financing,CF_TOKEN_SALE_PROCEEDS,Token sale proceeds (fiat received)
+Cash Flow - Financing,CF_EQUITY_CONTRIB,Equity contributions
+Cash Flow - Financing,CF_LOAN_PROCEEDS,Loan proceeds
+Cash Flow - Financing,CF_LOAN_REPAY,Loan repayments
+Cash Flow - Financing,CF_REPURCHASES_CASH,Equity or token repurchases (cash)
+Cash Flow - Financing,CF_TOKEN_ISSUANCE_FEES,Token issuance fees
+Cash Flow - Financing,CF_OTHER_FINANCING,Other financing cash
+Cash Flow - Totals,CF_NET_CASH_OPERATING,Net cash from operating activities
+Cash Flow - Totals,CF_NET_CASH_INVESTING,Net cash from investing activities
+Cash Flow - Totals,CF_NET_CASH_FINANCING,Net cash from financing activities
+Cash Flow - Totals,CF_NET_CHANGE_CASH,Net change in cash
+Cash Flow - Totals,CF_ENDING_CASH,Ending cash and cash equivalents

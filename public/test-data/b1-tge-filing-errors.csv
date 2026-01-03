@@ -1,0 +1,10 @@
+order,answerText
+1,""
+2,"Known investors include **Acme Ventures** and *Beta Capital"
+3,
+5,"{""textExplanation"":""Token distribution plan"",""supplyAllocation"":{""categories"":[{""id"":""cat-1"",""label"":""Ecosystem"",""tokenAmount"":400000000,""percentage"":50,""color"":""#8B5CF6""},{""id"":""cat-2"",""label"":""Team"",""tokenAmount"":200000000,""percentage"":30,""color"":""#3B82F6""}],""totalSupply"":1000000000,""tokenTicker"":""TKN""},""vestingSchedule"":{""dataPoints"":[{""quarterLabel"":""Q1 2025"",""timestamp"":""2025-01-01T00:00:00Z"",""categories"":{""Ecosystem"":50000000,""Team"":0}}],""categories"":[""Ecosystem"",""Team""],""colors"":{""Ecosystem"":""#8B5CF6"",""Team"":""#3B82F6""}},""meta"":{""version"":""1.0"",""timestamp"":""2025-01-01T00:00:00Z""}}"
+6,"Airdrop details here"
+7,"{invalid json that will fail parsing"
+8,"CEX agreements: Binance, Coinbase"
+9,"Prior sales info"
+15,"This order number doesn't exist in B1 filing"

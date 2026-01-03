@@ -1,0 +1,27 @@
+/**
+ * CSV field parsing utilities
+ */
+
+/**
+ * Parse CSV-escaped field value
+ * Handles the CSV escaping convention:
+ * - Outer quotes stripped: "..." -> ...
+ * - Doubled quotes unescaped: "" -> "
+ * - \n escape sequences converted to actual newlines (matching production behavior)
+ */
+export function parseCsvField(input: string): string {
+  let text = input.trim()
+
+  // If wrapped in outer quotes, remove them and unescape doubled quotes
+  if (text.startsWith('"') && text.endsWith('"')) {
+    text = text.slice(1, -1)
+    // Unescape doubled quotes
+    text = text.replace(/""/g, '"')
+  }
+
+  // Convert \n escape sequences to actual newlines (production behavior)
+  // This matches what v0-client/components/ui/text-editor/text-editor.tsx does
+  text = text.replace(/\\n/g, '\n')
+
+  return text
+}
