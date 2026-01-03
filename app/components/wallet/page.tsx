@@ -6,8 +6,8 @@ import { ErrorDisplay, SuccessDisplay } from "@/components/error-display"
 import { WalletPreview } from "@/components/wallet-preview"
 import { validateWallet, type WalletValidationResult } from "@/lib/validators"
 
-// Example using standard CSV quoting format - quotes doubled inside
-const EXAMPLE_WALLET_JSON = '"{""Treasury"":{""description"":""Main treasury for protocol operations"",""address"":""0x1234567890abcdef1234567890abcdef12345678"",""chain"":""ethereum""},""Staking Pool"":{""description"":""Staking rewards distribution"",""address"":""7nYBqPqCAuuSNUpGN3ZFhJ9h5s6N8bKfLp1xP3nZwWvz"",""chain"":""solana""},""Operations"":{""description"":""Day-to-day operational expenses"",""address"":""0xabcdef1234567890abcdef1234567890abcdef12"",""chain"":""polygon""}}"'
+// Example using raw JSON format
+const EXAMPLE_WALLET_JSON = '{"Treasury":{"description":"Main treasury for protocol operations","address":"0x1234567890abcdef1234567890abcdef12345678","chain":"ethereum"},"Staking Pool":{"description":"Staking rewards distribution","address":"7nYBqPqCAuuSNUpGN3ZFhJ9h5s6N8bKfLp1xP3nZwWvz","chain":"solana"},"Operations":{"description":"Day-to-day operational expenses","address":"0xabcdef1234567890abcdef1234567890abcdef12","chain":"polygon"}}'
 
 export default function WalletComponentPage() {
   const [inputText, setInputText] = useState("")
