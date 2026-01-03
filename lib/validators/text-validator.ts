@@ -26,16 +26,19 @@ export function validateText(answerText: string): TextValidationResult {
     return { valid: false, errors, warnings }
   }
 
-  // Parse CSV field escaping (handles "" -> ", removes outer quotes, converts \n to newlines)
-  const text = parseCsvField(answerText)
+  // Parse CSV field escaping (handles "" -> ", removes outer quotes)
+  let text = parseCsvField(answerText)
 
-  // Detect formatting - check for newlines (either from \n escape sequences or actual newlines)
+  // Convert \n escape sequences to actual newlines for text content
+  text = text.replace(/\\n/g, '\n')
+
+  // Detect formatting - check for newlines
   const formattingDetected = {
     bold: /\*\*[^*]+\*\*/.test(text),
     italic: /(?<!\*)\*[^*]+\*(?!\*)/.test(text),
     bulletLists: /\n-\s/.test(text) || text.startsWith("- "),
     tables: /\|[^|]+\|/.test(text) && /\|\s*---\s*\|/.test(text),
-    lineBreaks: text.includes("\n") || answerText.includes("\\n")  // Check for \n in original text too
+    lineBreaks: text.includes("\n")
   }
 
   // Warn if no formatting detected for long text
@@ -102,6 +105,9 @@ export function validateText(answerText: string): TextValidationResult {
 export function markdownToHtml(markdown: string): string {
   // First parse CSV escaping if present
   let html = parseCsvField(markdown)
+
+  // Convert \n escape sequences to actual newlines
+  html = html.replace(/\\n/g, '\n')
 
   // Convert actual newlines to <br> for HTML display
   html = html.replace(/\n/g, "<br>")

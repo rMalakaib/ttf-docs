@@ -7,7 +7,10 @@
  * Handles the CSV escaping convention:
  * - Outer quotes stripped: "..." -> ...
  * - Doubled quotes unescaped: "" -> "
- * - \n escape sequences converted to actual newlines (matching production behavior)
+ *
+ * NOTE: Does NOT convert \n sequences to actual newlines.
+ * For text content, the display layer handles this.
+ * For JSON content, JSON.parse handles \n escape sequences correctly.
  */
 export function parseCsvField(input: string): string {
   let text = input.trim()
@@ -18,10 +21,6 @@ export function parseCsvField(input: string): string {
     // Unescape doubled quotes
     text = text.replace(/""/g, '"')
   }
-
-  // Convert \n escape sequences to actual newlines (production behavior)
-  // This matches what v0-client/components/ui/text-editor/text-editor.tsx does
-  text = text.replace(/\\n/g, '\n')
 
   return text
 }
