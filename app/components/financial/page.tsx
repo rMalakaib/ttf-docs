@@ -6,10 +6,9 @@ import { ErrorDisplay, SuccessDisplay } from "@/components/error-display"
 import { FinancialPreview } from "@/components/financial-preview"
 import { validateFinancial, type FinancialValidationResult } from "@/lib/validators"
 
-// Example that matches what would be in CSV answerText column (minified JSON string)
-// CSV format uses doubled quotes ("") for escaping inside quoted fields
-// Includes companyName in meta section
-const EXAMPLE_FINANCIAL_JSON = '"{""incomeStatement"":{""blocks"":[{""id"":""sec-1"",""title"":{""id"":""t-1"",""type"":""title"",""title"":""Revenue""},""rows"":[{""id"":""r-1"",""type"":""number"",""attr"":""Revenue"",""value"":5000000},{""id"":""r-2"",""type"":""number"",""attr"":""IS_APY_VAULTS"",""value"":1200000},{""id"":""r-3"",""type"":""total"",""totalTitle"":""IS_TOTAL_REVENUE"",""sources"":[""r-1"",""r-2""]}]}]},""balanceSheet"":{""blocks"":[{""id"":""bs-1"",""title"":{""id"":""bs-t-1"",""type"":""title"",""title"":""Assets""},""rows"":[{""id"":""bs-r-1"",""type"":""number"",""attr"":""BS_CASH_EQ"",""value"":2500000},{""id"":""bs-r-2"",""type"":""number"",""attr"":""BS_DIGITAL_ASSETS_OFFCHAIN"",""value"":8000000}]}]},""cashFlowStatement"":{""blocks"":[]},""meta"":{""companyName"":""ExampleDAO Foundation"",""currency"":""USD"",""period"":""Q4 2024"",""timestamp"":""2025-01-01T00:00:00Z"",""version"":""1.0""}}"'
+// Example that matches production format - raw JSON (no CSV quote escaping)
+// Includes companyName in meta section, version must be "2.0"
+const EXAMPLE_FINANCIAL_JSON = '{"incomeStatement":{"blocks":[{"id":"sec-1","title":{"id":"t-1","type":"title","title":"Revenue"},"rows":[{"id":"r-1","type":"number","attr":"Revenue","value":5000000},{"id":"r-2","type":"number","attr":"IS_APY_VAULTS","value":1200000},{"id":"r-3","type":"total","totalTitle":"IS_TOTAL_REVENUE","sources":["r-1","r-2"]}]}]},"balanceSheet":{"blocks":[{"id":"bs-1","title":{"id":"bs-t-1","type":"title","title":"Assets"},"rows":[{"id":"bs-r-1","type":"number","attr":"BS_CASH_EQ","value":2500000},{"id":"bs-r-2","type":"number","attr":"BS_DIGITAL_ASSETS_OFFCHAIN","value":8000000}]}]},"cashFlowStatement":{"blocks":[]},"meta":{"companyName":"ExampleDAO Foundation","currency":"USD","period":"Q4 2024","timestamp":"2025-01-01T00:00:00Z","version":"2.0"}}'
 
 export default function FinancialComponentPage() {
   const [inputText, setInputText] = useState("")

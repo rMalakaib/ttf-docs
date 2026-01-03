@@ -6,9 +6,8 @@ import { ErrorDisplay, SuccessDisplay } from "@/components/error-display"
 import { FlowchartPreview } from "@/components/flowchart-preview"
 import { validateFlowchart, type FlowchartValidationResult } from "@/lib/validators/flowchart-validator"
 
-// Example that matches what would be in CSV answerText column (minified JSON string)
-// CSV format uses doubled quotes ("") for escaping inside quoted fields
-const EXAMPLE_FLOWCHART_JSON = '"{""nodes"":[{""id"":""node-1"",""shape"":""rect"",""color"":""#3b82f6"",""text"":""Token Sale"",""x"":100,""y"":100,""width"":120,""height"":60},{""id"":""node-2"",""shape"":""rect"",""color"":""#10b981"",""text"":""Treasury"",""x"":280,""y"":100,""width"":120,""height"":60},{""id"":""node-3"",""shape"":""circle"",""color"":""#8b5cf6"",""text"":""Distribution"",""x"":460,""y"":100,""width"":80,""height"":80}],""connections"":[{""id"":""conn-1"",""fromNodeId"":""node-1"",""toNodeId"":""node-2"",""fromSide"":""right"",""toSide"":""left"",""direction"":""right""},{""id"":""conn-2"",""fromNodeId"":""node-2"",""toNodeId"":""node-3"",""fromSide"":""right"",""toSide"":""left"",""direction"":""right""}],""meta"":{""version"":""1.0"",""timestamp"":""2025-01-01T00:00:00Z""}}"'
+// Example that matches production format - raw JSON (no CSV quote escaping)
+const EXAMPLE_FLOWCHART_JSON = '{"nodes":[{"id":"node-1","shape":"rect","color":"#3b82f6","text":"Token Sale","x":100,"y":100,"width":120,"height":60},{"id":"node-2","shape":"rect","color":"#10b981","text":"Treasury","x":280,"y":100,"width":120,"height":60},{"id":"node-3","shape":"circle","color":"#8b5cf6","text":"Distribution","x":460,"y":100,"width":80,"height":80}],"connections":[{"id":"conn-1","fromNodeId":"node-1","toNodeId":"node-2","fromSide":"right","toSide":"left","direction":"right"},{"id":"conn-2","fromNodeId":"node-2","toNodeId":"node-3","fromSide":"right","toSide":"left","direction":"right"}],"meta":{"version":"1.0","timestamp":"2025-01-01T00:00:00Z"}}'
 
 export default function FlowchartComponentPage() {
   const [inputText, setInputText] = useState("")
