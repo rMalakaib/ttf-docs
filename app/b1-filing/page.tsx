@@ -291,7 +291,7 @@ export default function B1FilingPage() {
 2,"Team members table..."
 3,"DAO structure..."
 4,"Foundation info..."
-5,"{""textExplanation"":""..."", ...}"
+5,{"textExplanation":"...", ...}
 6,"Airdrop details..."
 7,"Market maker table..."
 8,"Exchange agreements..."
