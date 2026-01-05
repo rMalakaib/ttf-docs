@@ -272,11 +272,11 @@ Required structure:
             <div className="bg-white rounded-lg shadow p-6">
               <h3 className="font-semibold mb-3">How It Appears in CSV</h3>
               <p className="text-sm text-gray-600 mb-3">
-                In CSV, the JSON is minified and quoted with internal quotes doubled:
+                In CSV, the JSON is entered directly in minified form:
               </p>
               <pre className="bg-gray-900 text-green-400 p-4 rounded text-xs overflow-x-auto">
 {`order,answerText
-6,"{""incomeStatement"":{""blocks"":[...]},""meta"":{...}}"`}
+6,{"incomeStatement":{"blocks":[...]},"meta":{...}}`}
               </pre>
             </div>
           </div>

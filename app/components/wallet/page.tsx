@@ -214,11 +214,11 @@ The JSON should have wallet names as keys, each with:
             <div className="bg-white rounded-lg shadow p-6">
               <h3 className="font-semibold mb-3">How It Appears in CSV</h3>
               <p className="text-sm text-gray-600 mb-3">
-                When you put this in a CSV file, the JSON needs to be quoted and internal quotes doubled:
+                When you put this in a CSV file, the JSON is entered directly:
               </p>
               <pre className="bg-gray-900 text-green-400 p-4 rounded text-xs overflow-x-auto">
 {`order,answerText
-3,"{""Treasury"":{""description"":""Main treasury"",""address"":""0x1234..."",""chain"":""ethereum""}}"`}
+3,{"Treasury":{"description":"Main treasury","address":"0x1234...","chain":"ethereum"}}`}
               </pre>
             </div>
 
