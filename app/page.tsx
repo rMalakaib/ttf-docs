@@ -223,15 +223,6 @@ export default function DocsIndexPage() {
           </div>
         </div>
 
-        {/* Footer */}
-        <div className="text-center text-gray-500 text-sm py-8 border-t">
-          <p>
-            For detailed documentation, see the{" "}
-            <a href="/partner-csv-integration.md" className="text-blue-600 hover:underline">
-              Partner CSV Integration Guide
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   )
